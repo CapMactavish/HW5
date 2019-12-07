@@ -11,10 +11,7 @@ public class ArraylistMethod {
 		if (a.size()==0)
 			return a;
 		else if (a.size()%2==1) {
-			int temp = a.get(a.size()-1);
 			a.remove(a.size()-1);
-			a.add(Integer.MAX_VALUE);
-			a.add(temp);
 		}
 		while (i < a.size()) {
 			FirstInt = a.get((i + 0));
